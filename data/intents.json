@@ -1,0 +1,109 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hola",
+        "Hey",
+        "Como estas?",
+        "Hoola!!!",
+        "Holaaaa!!",
+        "Buen dia",
+        "Buenas tardes",
+        "Buenas noches",
+        "Holis"
+      ],
+      "responses": [
+        "Hola!, En que puedo ayudarte?",
+        "Hola!!! :)",
+        "En que puedo ayudarte?",
+        "Como puedo ayudarte?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Chau", "Hasta luego", "Adios"],
+      "responses": [
+        "Hasta luego, Gracias por tu visita",
+        "Gracias por tu visita",
+        "Adios, te esperamos pronto!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Gracias", "Gracias a vos"],
+      "responses": ["Un placer ayudarte", "De nada!", "Es un placer por ayudarte!"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Que vendes?",
+        "Que productos vendes?",
+        "Productos a la venta?"
+      ],
+      "responses": [
+        "Vendemos todo para el hogar",
+        "Tenemos todo para tu casa"
+      ]
+    },
+    {
+      "tag": "products",
+      "patterns": [
+        "Venden sillas?",
+        "Venden mesas?",
+        "Venden cocinas?",
+        "Tienen sillas?",
+        "Tienen mesas?",
+        "Tienen cocinas?",
+        "Tienen heladeras?"
+      ],
+      "responses": [
+        "Tenemos mesas, sillas, cocinas, heladeras, entre muchos más"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Quiero saber medios de pago",
+        "Aceptan tarjeta de credito?",
+        "Aceptan mercado pago?",
+        "Aceptan pagos con bitcoin?",
+        "Aceptan pago en efectivo?",
+        "Como te puedo pagar?"
+      ],
+      "responses": [
+        "Aceptamos todas las tarjetas de credito y debito, ademas aceptamos mercado pago",
+        "Tenemos todas las tarjetas y QR"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Cuanto es la demora del delivery?",
+        "Demoras de los envios?",
+        "Tiempo estimado de los envios?",
+        "Realizan envios?",
+        "Tienen envios?",
+        "Hacen envios?",
+        "Me lo podes enviar?"
+      ],
+      "responses": [
+        "Los envios tardan entre 1 y 2 dias",
+        "Una vez enviados el producto, tardan entre 1 a 2 dias dependiendo de la zona",
+        "Realizamos envios en AMBA con demoras entre 1 a 2 dias dependiendo de la zona"
+      ]
+    },
+    {
+      "tag": "delivery_cost",
+      "patterns": [
+        "Costo del envio?",
+        "Precio del envio?",
+        "Cuanto sale el envio?",
+        "Cuanto me sale el envio"
+      ],
+      "responses": [
+        "Los envios tienen un precio de $300 en AMBA"
+      ]
+    }
+  ]
+}
