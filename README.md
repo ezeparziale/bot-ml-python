@@ -1,47 +1,39 @@
-# Bot simple ML
+# :robot: Bot simple ML
 
-## Run
+Bot using ML
 
-Crear ambiente virtual:
+## :floppy_disk: Installation
 
 ```bash
 python -m venv env
 ```
 
-Activar ambiente:
-
 ```bash
 . env/scripts/activate
 ```
 
-Instalar requerimientos:
-
 ```bash
-pip install numpy pydantic torch python-dotenv nltk
+pip install --upgrade pip
 ```
 
-O tambien utilizando:
-
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
-Entrenar modelo:
+## :wrench: Config
+
+Setting all the intents in: `data/intents.json`
+
+## :runner: Run
+
+Train the model:
 
 ```bash
 python src/models/train_model.py
 ```
 
-El modelo se entrena solo una vez o bien cada vez que se actualiza el archivo de ***data/intents.json***
-
-Ejecutar app de chat:
+Run the chat:
 
 ```bash
 python src/app.py
-```
-
-## Intents
-
-```file
-data/intents.json
 ```
